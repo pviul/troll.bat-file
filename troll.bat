@@ -1,6 +1,6 @@
 @ Echo off
-Title INSTALL MOD
-powershell -command "Add-Type -AssemblyName PresentationFramework; [System.Windows.MessageBox]::Show('Click OK to install mod.')"
+Title "Title"
+powershell -command "Add-Type -AssemblyName PresentationFramework; [System.Windows.MessageBox]::Show('Text')"
 echo 1001101010101011111111101010101
 echo 1100101000101001010010100101001
 echo 1001101010110010011111010101011
@@ -58,7 +58,7 @@ powershell -command "Add-Type -AssemblyName PresentationFramework; [System.Windo
 powershell -command "Add-Type -AssemblyName PresentationFramework; [System.Windows.MessageBox]::Show('Camera access allowed.')"
 powershell -command "Add-Type -AssemblyName PresentationFramework; [System.Windows.MessageBox]::Show('Your files have been encrypted. Payment required.')"
 timeout /t 4 >nul
-powershell -command "Add-Type -AssemblyName PresentationFramework; [System.Windows.MessageBox]::Show('Done! Mod installed.')"
+powershell -command "Add-Type -AssemblyName PresentationFramework; [System.Windows.MessageBox]::Show('Text')"
 timeout /t 1 >nul
 powershell -Command "$null = [Windows.UI.Notifications.ToastNotificationManager, Windows.UI.Notifications, ContentType = WindowsRuntime]; $template = [Windows.UI.Notifications.ToastNotificationManager]::GetTemplateContent([Windows.UI.Notifications.ToastTemplateType]::ToastText01); $textNodes = $template.GetElementsByTagName('text'); $textNodes.Item(0).AppendChild($template.CreateTextNode('You were logged of')) > $null; $toast = [Windows.UI.Notifications.ToastNotification]::new($template); [Windows.UI.Notifications.ToastNotificationManager]::CreateToastNotifier('System').Show($toast);"
 timeout /t 3 >nul
