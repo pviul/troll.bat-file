@@ -1,2 +1,4 @@
-# troll.bat-file
+# troll.bat file
 this is a .bat file to troll others
+# how does it work?
+when you click it, it shows a popup that says "Click Ok to install mod." i originally made it to troll my friend, i said that its a Minecraft mod. When you click "Ok" it opens cmd and types creepy stuff like "Installing malware..." or "Revealing IP...", it doesnt do anything harmful. Affter that you get some popups like "Camera accessed." and in the corner you get a notification from "System" that says you were logged of. After that it shuts down your pc. Thats all, if you want to edit it just search the third line that says "powershell-..." and replace the text that says "Click Ok to install" and done. and for the last one search powershell again at the bottom but search "Done! Mod installed" and replace it with whatever you want.
